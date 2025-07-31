@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:online_courses/pages/login_page.dart';
-import 'package:online_courses/theme/theme.dart';
+import 'package:online_courses/screens/login_page.dart';
 import '../theme/colors.dart';
 import 'register_page.dart';
 

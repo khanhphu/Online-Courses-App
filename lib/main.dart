@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:online_courses/pages/splashscreen.dart';
+import 'package:online_courses/models/courses.dart';
+import 'package:online_courses/screens/courses_screen.dart';
+import 'package:online_courses/screens/course_detail_screen.dart';
 import 'package:online_courses/theme/theme.dart';
 
 void main() {
@@ -15,8 +17,11 @@ class MainApp extends StatelessWidget {
       title: 'iStudy',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
-      home: const SplashScreen(),
-      
+      //  home: const SplashScreen(),
+      //test ui- home_screen
+      home: const CoursesScreen(),
+      //test course_detail_screen
+      //  home: CourseDetailScreen(),
     );
   }
 }

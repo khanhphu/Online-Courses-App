@@ -1,0 +1,13 @@
+{
+    "editor.wordWrap": "on",
+    "editor.guides.indentation": true,
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+
+    "[dart]": {
+        "editor.formatOnSave": true
+    }
+}

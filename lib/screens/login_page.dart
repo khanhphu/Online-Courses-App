@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:online_courses/screens/main_screen.dart';
 import '../theme/colors.dart';
 import 'register_page.dart';
 
@@ -44,9 +45,14 @@ class _LoginPageState extends State<LoginPage> {
 
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(content: Text('Đăng nhập thành công!')),
+
     );
 
-    // TODO: Navigate to home screen or dashboard
+    //wait 1-2 s chuyen trang
+    Future.delayed(const Duration(seconds: 2),(){
+        Navigator.pushReplacement(context,
+        MaterialPageRoute(builder: (context)=> MainScreen()));
+    });
   }
 
   @override

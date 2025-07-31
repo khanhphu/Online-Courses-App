@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "650901453856",
+    "project_id": "flutter--online-courses",
+    "storage_bucket": "flutter--online-courses.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650901453856:android:e9e70744e178ce9e5bd045",
+        "android_client_info": {
+          "package_name": "com.example.online_courses"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeyf8e_l6awj5CGREyoZo-EkfvrsEwoG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
